@@ -1,0 +1,843 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4{
+    color: #444;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    
+}
+.wrapper a:hover{
+    color: #ff7a00;
+}
+.wrapper{
+    width: 940px;
+    margin: 10px;
+    padding: 0 10px;
+}
+.rouge{
+    color: #ff7a00;
+}
+header{
+    height: 90px;
+    background-color: whitesmoke;
+    margin-top: -10px;
+}
+
+header h1{
+    float: left;
+    margin-top: 15px;
+    font-size: 29px;
+    margin-left: 15px;
+}
+.clear{
+    clear: both;
+}
+header nav{
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+header nav ul li{
+    display: inline-block;
+    
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+form{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 10px;
+    width: 30%;
+}
+input[type="search"]{
+    font-size: 17px;
+}
+
+/*Main image*/
+#main-image{
+    height: 110vh;
+    background: url('images/background\ img.png')center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -10px;
+    
+}
+#main-image h2{
+    font-weight: normal;
+    text-align: center;
+    padding-left: 36%;
+    padding-top: 35%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: azure;
+}
+
+#main-image p{
+    font-weight: normal;
+    text-align: center;
+    padding-left: 29%;
+    padding-top: 20%;
+    margin-top: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+}
+#main-image h2 strong{
+color: #ff7a00;
+}
+.button{
+    display: block;
+    width: 120px;
+    height: 35px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 62%;
+    border-radius: 15px;
+}
+.button:hover{
+    background: #02b8dd;
+
+}
+.res{
+    height: 50%;
+}
+.res img{
+    position: absolute;
+    margin-left: 10%;
+}
+.res h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+.res h2 span{
+    color: #ff7a00;
+}
+.vol{
+    border: 0.5px solid;
+    width: 30%;
+    height: 65vh;
+    margin: 0 auto 20px;
+    margin-top: 50px;
+    border-color: rgb(209, 204, 204);
+    margin-left: 50%; 
+    text-align: center;
+    margin-bottom: 80px;
+}
+input{
+    margin-top: 15px;
+    height: 40px;
+    width: 75%;
+    padding-left: 5px;
+    border-radius: 3px;
+    border-color: rgb(223, 218, 218);
+}
+p{
+    margin-right: 240px;
+    margin-top: 15px;
+}
+.vol3{
+    margin-right: 265px;
+}
+.vol2{
+    margin-right: 260px;
+}
+.vol1{
+    margin-right: 160px;
+} 
+button{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+button:hover{
+    background: #02b8dd;
+    cursor: pointer;
+}
+.ou{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 45%;
+}
+.hr1{
+    margin-top: 35px;
+    width: 100px;
+    margin-left: 58%;
+    margin-bottom: -25px;
+}
+.hr2{
+    width: 100px;
+    margin-left: 15%;
+    margin-top: -39px;
+}
+.ins{
+    background-color:  whitesmoke;
+    width: 100%;
+    height: 105vh;
+}
+.X{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    width: 160%;
+    margin-right: 15%;
+    justify-content: space-around;
+    margin-left: -33%;
+}
+
+.ins h2{
+    text-align: center;
+    top: 40px;
+    font-size: 30px;
+}
+.ins h2 span{
+    color: #ff7a00;
+}
+.ins h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -60px;
+    margin-left: 6%;
+}
+.form{
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 80px;
+}
+.facebook-button {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    width: 70%;
+    height: 60px;
+  }
+  .facebook-button a{
+    color: #fff;
+  }
+  .facebook-button:hover {
+    background-color: #3B5998;
+  }
+  .create-account-button {
+    background-color: #ff7a00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    height: 60px;
+    margin-right: 38%;
+  }
+  
+  .create-account-button:hover {
+    background-color: #0069D9;
+  }
+  
+.ins label {
+    margin-top: 20px;
+    display: inline-flex;
+    
+  }
+  
+  .ins input[type="checkbox"] {
+    width: 20px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -50px;
+  }
+  .ins label span{
+    margin-left: -20px;
+  }
+  .container h2{
+    text-align: center;
+    top: 40px;
+    font-size: 30px;
+  }
+  .container h2 span{
+    color: #ff7a00;
+  }
+  .content1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.description{
+    width: 30%;
+    height: 450px;
+    border: 1px solid gray;
+}
+.image{
+    width: 100%;
+    height: 60%;
+}
+.images{
+    display: flex;
+    
+}
+.images img{
+    width: 20px;
+    height: 30px;
+    margin-top: 3%;
+}
+.p2{
+    font-weight: bold;
+    margin-top: 3%
+}
+.content2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+p, a, .images, h2{
+    margin-left: 4%;
+}
+a{
+    padding-bottom: 19px;
+}
+.Y{
+    width: 95%;
+    margin-top: 3%;
+}
+.custom-journey-container{
+    margin-top: 40px;
+    background-color: rgb(230, 229, 229);
+    height: 60vh;
+    width: 100%;
+    
+}
+
+.custom-journey-container h2{
+    margin-left: 15%;
+    font-family: 'Griffiths', sans-serif;
+    font-size: 25px;
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 20px;
+}
+.cust{
+    margin-left: 50px;
+}
+.cust li{
+    font-weight: bold;
+    padding-left: 30px;
+    margin-top: 30px
+}
+.cust p{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 60%;
+}
+.custom-journey-container ul{
+    display: inline-flex;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 80px;
+    list-style: none;
+}
+.custom-journey-container p{
+    width: 70%;
+}
+.custom-journey-container img{
+    margin-left: 10%;
+}
+
+.ligne{
+    background-color: rgb(252, 246, 246);
+    width: 90%;
+    height: 60vh;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.ligne h2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    position: absolute;
+}
+.ligne p{
+    margin-top: 100px;
+    position: absolute;
+    width: 40%;
+    
+}
+.ligne img{
+    margin-left: 55%;
+    margin-top: 30px;
+}
+.var{
+    text-align: center;
+    top: 40px;
+    font-size: 25px;
+  }
+  .var h2 span{
+    color: #ff7a00;
+  }
+.var1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.var2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.des{
+    width: 30%;
+    height: 350px;
+}
+.image{
+    width: 100%;
+    height: 60%;
+}
+.iframe{
+    margin-left: 25%;
+    margin-top: 45px;
+}
+.Paiement{
+    background-color: rgb(238, 235, 235);
+    height: 10vh;
+    margin-top: 50px;
+    
+}
+.Paiement img{
+    width: 50px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.img1{
+    margin-left: 40%;
+}
+.Paiement h3{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 15%;
+    color: black;
+}
+.CONTACTEZ{
+    width: 99%;
+    height: 8vh;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,4);
+    margin: 10px;
+    height: 20%;
+    text-align: center;  
+    position: absolute;
+    margin-top: 0;
+}
+.CONTACTEZ img{
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 10px;
+}
+.CONTACTEZ h4{
+    margin-left: 15%;
+    margin-top: 30px;
+    position: absolute;
+    color: #444;
+}
+.CONTACTEZ h4 span{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -40px;
+}
+.CONTACTEZ p{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 13%;
+    font-size: 13px;
+}
+.CONTACTEZ h3{
+    margin-left: 60%;
+    position: absolute;
+}
+.abonne{
+    margin-left: 55%;
+}
+.abonne input{
+    width: 90%;
+    margin-left: -20%;
+}
+.abonne button{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: -40px;
+    width: 40%;
+}
+.pro{
+    margin-top: 10%;
+    background-color: rgb(221, 218, 218);
+}
+.pro1{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20px;
+    line-height: 2;
+    width: 20%;
+}
+.pro2{
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 20px;
+    line-height: 2;
+}
+.pro3{
+    margin-left: 70%;
+    position: absolute;
+    margin-top: 20px;
+    line-height: 2;
+}
+.fin{
+    margin-top: 30%;
+    background-color:  rgb(238, 235, 235);
+    height: 10vh;
+}
+.fin h3{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 20px;
+}
+.fin img{
+    position: absolute;
+    margin-left: 80%;
+    height: 60px;
+    width: 70px;
+}
+/* Vos styles CSS existants */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 18px;
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    header a{
+        margin-left: 20%;
+        margin-top: 20%;
+        font-size: 15px;
+    }
+    .wrapper form {
+        width: 40%;
+        margin-top: 50px;
+        margin-left: 5%;
+        display: none;
+    }
+    .wrapper p{
+        width: 100%;
+        margin-left: -30%;
+        margin-top: 20%;
+        position: absolute;
+    }
+    .wrapper h2{
+        margin-left: -20%;
+        
+        
+    }
+    .wrapper a{
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    #main-image{
+        height: 90vh;
+    }
+    .res{
+        width: 70%;
+        
+        margin-left: 15%;
+    }
+    .vol{
+        height: 110%;
+    }
+    .res img {
+        margin-left: 35%;
+        margin-top: 10%;
+        position: absolute;
+        display: none;
+    }
+    .res input{
+        width: 70%;
+    }
+    .res p{
+        margin-left: -30%;
+    }
+
+    .vol {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .vol p,
+    .vol3,
+    .vol2,
+    .vol1 {
+        margin-left: -30px;
+    }
+    .ins{
+        height: 80vh;
+    }
+    .ins h2 {
+        margin-left: -5%;
+        margin-top: 20%;
+        font-size: 28px;
+    }
+
+    .ins h3 {
+        margin-top: 5%;
+        margin-bottom: -24px;
+        margin-left: -3%;
+    }
+
+    .form {
+        margin-left: 25%;
+        margin-top: 20px;
+        width: 48%;
+        margin-top: 10%;
+    }
+
+    .facebook-button {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .create-account-button {
+        width: 75%;
+        margin-right: 7.5%;
+        margin-top: 50px;
+    }
+    header nav ul li {
+        margin-right: 3px;
+    }
+    .content1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 7%;
+    }
+    .description{
+        width: 30%;
+        height: 450px;
+        border: 1px solid gray;
+        margin-left: -10px;
+    }
+    .custom-journey-container{
+        height: 40vh;
+    }
+    .ligne{
+        height: 40vh;
+    }
+    .iframe{
+        margin-left: 10%;
+    }
+    .fin{
+        margin-top: 60%;
+    }
+    .pro{
+        margin-top: 23%;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 0) {
+    
+    header {
+        height: 80px;
+        width: 220%;
+    }
+
+    header h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .search {
+        width: 90%;
+        margin-left: 5%;
+        display: none;
+    }
+    #main-image{
+        width: 220%;
+        height: 80vh;
+    }
+    #main-image p{
+        margin-left: 27%;
+        margin-top: 20%;
+    }
+    .res{
+        width: 70%;
+        
+        margin-left: 100%;
+    }
+    .res h2{
+        margin-left: -60%;
+    }
+    .res img {
+        margin-top: 5px;
+        margin-left: -90%;
+        display: block;
+    }
+    .res p{
+        margin-left: -20%;
+    }
+
+    .vol {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .vol p,
+    .vol3,
+    .vol2,
+    .vol1 {
+        margin-left: 30px;
+    }
+
+    .vol {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .ins{
+        height: 80vh;
+        width: 215%;
+    }
+    .ins h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .ins h3 {
+        margin-top: 8px;
+        margin-bottom: -16px;
+    }
+
+    .form {
+        margin-left: 80%;
+        margin-top: 25px;
+    }
+    .container{
+        width: 220%;
+    }
+    .container h2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    .content1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 9%;
+    }
+    .description{
+        width: 100%;
+        height: 450px;
+        border: 1px solid gray;
+    }
+    .image{
+        width: 100%;
+        height: 60%;
+    }
+    .images{
+        display: flex;
+        
+    }
+    .facebook-button {
+        width: 120%;
+    }
+
+    .create-account-button {
+        width: 85%;
+        margin-right: 5%;
+    }
+    .custom-journey-container{
+        width: 220%;
+    }
+    .custom-journey-container h2{
+        width: 100%;
+    }
+    .ligne{
+        width: 180%;
+    }
+    .ligne p{
+        width: 90%;
+    }
+    .var{
+        width: 220%;
+    }
+    .iframe{
+        margin-left: 50%;
+    }
+    .Paiement{
+        width: 220%;
+    }
+    .CONTACTEZ{
+        width: 220%;
+    }
+    .pro{
+        width: 220%;
+        margin-top: 20%;
+        margin-left: 40%;
+    }
+    .fin{
+        width: 220%;
+        margin-top: 100%;
+    }
+
+    header nav ul li {
+        margin-right: 2px;
+    }   
+}
